@@ -1,0 +1,12 @@
+{
+  "name": "frontendsocialvideo",
+  "version": "1.0.0",
+  "description": "Interfaz para generar y publicar contenido audiovisual con IA",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

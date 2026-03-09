@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Interfaz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi interfaz</h1>
+    <p>Genera contenido audiovisual con IA y publicalo automáticamente en redes sociales.</p>
+  </header>
+  <main>
+    <section id="generar-contenido">
+      <h2>Generar contenido audiovisual con IA</h2>
+      <form id="form-prompt">
+        <label for="prompt">Introduce un prompt:</label>
+        <input type="text" id="prompt" name="prompt">
+        <button type="submit">Generar contenido</button>
+      </form>
+    </section>
+    <section id="aprobar-contenido">
+      <h2>Aprobar contenido generado por IA</h2>
+      <div id="contenido">
+        <h3 id="titulo">Título generado por IA</h3>
+        <p id="descripcion">Descripción generado por IA</p>
+        <p id="hashtags">#Hashtags generado por IA</p>
+        <p id="copy">Copy adaptado para cada red social:</p>
+        <ul id="copy-list">
+          <li>TikTok: <span id="tiktokCopy"></span></li>
+          <li>Instagram: <span id="instagramCopy"></span></li>
+          <li>Facebook: <span id="facebookCopy"></span></li>
+        </ul>
+      </div>
+      <button type="button" id="aprobar">Aprobar contenido</button>
+    </section>
+    <section id="publicar-contenido">
+      <h2>Publicar contenido en redes sociales</h2>
+      <button type="button" id="publicar">Publicar en redes sociales</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2022 Mi Interfaz</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
